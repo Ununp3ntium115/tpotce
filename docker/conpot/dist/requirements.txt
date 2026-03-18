@@ -16,3 +16,4 @@ fs==2.3.0
 tftpy
 # some freezegun versions broken
 sphinx_rtd_theme
+pyasn1>=0.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
