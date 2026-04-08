@@ -3,3 +3,4 @@ asyncssh>=2.0.0
 pyaml
 hpfeeds3
 pyOpenSSL
+cryptography>=46.0.6 # not directly required, pinned by Snyk to avoid a vulnerability
