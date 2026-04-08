@@ -12,7 +12,6 @@ RUN apk --no-cache -U upgrade && \
 		libffi-dev \
 		openssl-dev \
 		linux-headers \
-		py3-aiohttp \
 		py3-geoip2 \
 		py3-jinja2 \
 		py3-jwt \
@@ -27,7 +26,6 @@ RUN apk --no-cache -U upgrade && \
 		py3-websocket-client \
 		py3-wheel \
 		py3-yaml \
-		py3-yarl \
 		python3 \
 		python3-dev && \ 
 #

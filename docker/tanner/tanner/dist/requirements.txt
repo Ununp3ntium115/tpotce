@@ -1,8 +1,9 @@
 aiomysql
-aiohttp_jinja2==1.1.0
+aiohttp_jinja2>=1.6
 docker<2.6
 mimesis<3.0.0
 aioredis
 pymongo
 pylibinjection
 aiodocker
+aiohttp>=3.13.4 # not directly required, pinned by Snyk to avoid a vulnerability
