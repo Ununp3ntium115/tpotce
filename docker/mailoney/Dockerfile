@@ -1,5 +1,5 @@
 # For Mailoney to work we need to keep Alpine 3.19 for now
-FROM alpine:3.19
+FROM alpine:3.23.4
 #
 # Install packages
 RUN apk --no-cache -U upgrade && \
