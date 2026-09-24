@@ -21,7 +21,7 @@ RUN apk --no-cache -U upgrade && \
     go mod download && \
     go install
 #
-FROM alpine:3.20
+FROM alpine:3.21.6
 #
 # Setup redishoneypot
 #
