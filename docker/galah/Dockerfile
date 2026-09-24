@@ -15,7 +15,7 @@ go mod download
 go build -o galah ./cmd/galah
 EOF
 #
-FROM alpine:3.21.6
+FROM alpine:3.24.1
 RUN apk --no-cache -U upgrade && \
     apk --no-cache -U add openssl
 COPY --from=builder /opt/galah/ /opt/galah/
